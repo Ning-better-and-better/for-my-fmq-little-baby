@@ -21,8 +21,8 @@ ylim([Y(1,1)-y_step,Y(1,end)+y_step])
 figure(2)
 row_num = 17; % read it from figure 1
 col_num = 18; % read it from figure 1
-row = 10; % from bottom to top
-col = 8; % from left to right
+row = 10; % from bottom to top (the point you want)
+col = 8; % from left to right (the point you want)
 
 % plot the figure
 index = col_num*row + col;
