@@ -35,13 +35,13 @@ xlim([W(1,index),W(end,index)])
 %intensity = I(:,index)';
 %save('fig2','wavelength','intensity')
 
-%% figure 3 -- the index(x-axis) of the wavelength you may concern
+%% figure 3 -- all index(x-axis) of the wavelengthes
 figure(3)
 plot(W(:,1))
 grid on
 
 %% figure 4 -- for a certain wavelength, X,Y vs I
-% you need to check the index(x-axis) of the waveform you want to check
+% you need to find the index(x-axis) of the wavelength you concern from figure 3 !!!
 figure(4)
 index = 2792;
 
