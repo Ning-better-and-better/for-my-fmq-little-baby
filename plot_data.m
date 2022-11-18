@@ -45,6 +45,7 @@ grid on
 figure(4)
 index = 2792;
 
+% convert the vector to matrix
 j = 1; k = 1;
 for i = 1:length(X(index,:))
     x(j,k) = X(index,i);
@@ -56,9 +57,12 @@ for i = 1:length(X(index,:))
         k = k + 1;
     end
 end
+
+% plot data
 s = surf(x,y,inten)
 s.EdgeColor = 'none';
 grid on
 box on
+
 % save the data
 %save('fig4','x','y','intensity')
