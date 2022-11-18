@@ -20,7 +20,7 @@ ylim([Y(1,1)-y_step,Y(1,end)+y_step])
 % you need to read the following info of the point from figure 1 !!!
 figure(2)
 row_num = 17; % read it from figure 1
-col_num = 18; % read it from figure 2
+col_num = 18; % read it from figure 1
 row = 10; % from bottom to top
 col = 8; % from left to right
 
